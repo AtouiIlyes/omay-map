@@ -1,0 +1,33 @@
+:host ::ng-deep.leaflet-popup-content-wrapper {
+	background-color: #0f2c769c !important;
+  }
+
+  :host ::ng-deep .leaflet-popup-tip {
+	background-color: #0f2c769c !important;
+  }
+
+:host ::ng-deep .popup-custom-bloc-data {
+	background-color: rgb(128 128 128 / 30%);
+	margin-bottom: 6px;
+	padding: 1px 5px;
+	height: 20px;
+	text-align: center;
+  }
+
+  :host ::ng-deep .leaflet-popup-content {
+	width: 300px;
+	margin: 22px 12px;
+  }
+
+  :host ::ng-deep .leaflet-popup-content-wrapper {
+	background-color: rgb(26 26 26 / 0.9) !important;
+	color: #fff !important;
+  }
+
+  :host ::ng-deep .leaflet-popup-tip {
+	background-color: rgb(26 26 26 / 0.9) !important;
+
+}
+.map{
+	min-height:100vh;
+}
